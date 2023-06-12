@@ -21,4 +21,5 @@ from app.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mdb_jquery/',mdb_jquery,name='mdb_jquery'),
+    path('background_image/',background_image,name='background_image'),
 ]
